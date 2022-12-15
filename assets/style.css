@@ -37,6 +37,7 @@ header p {
 
 .main {
     display: grid;
+    justify-content: center;
     width: 95%;
     margin: auto;
     margin-bottom: 25px;
