@@ -99,3 +99,17 @@ pre {
     background-image: linear-gradient(rgba(232, 102, 236, 0.3) 0%, rgba(232, 102, 236, 0.6) 100%);
     white-space: pre-wrap;
 }
+
+@media only screen and (max-width: 1200px) {
+    .main {
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .main {
+        grid-template-columns: 100%;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    }
+}
